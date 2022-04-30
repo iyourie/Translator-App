@@ -1,0 +1,60 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+body { display: flex;align-items: center; justify-content: center;  height: 100vh;  font-family: rockwell;  background-color: #5372F0;}
+.container {  width: 700px; padding: 30px;  border: 1px solid;  border-radius: 10px;  -webkit-border-radius: 10px;  -moz-border-radius: 10px;  -ms-border-radius: 10px;  -o-border-radius: 10px;
+  background: #fff;
+}
+.wrapper {  border: solid 1px grey; border-radius: 5px;  -webkit-border-radius: 5px;  -moz-border-radius: 5px;  -ms-border-radius: 5px;  -o-border-radius: 5px;
+}
+.wrapper .text-input {
+  display: flex;
+  border-bottom: solid 1px gray;
+}
+.text-input textarea {
+  height: 300px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  resize: none;
+}
+.text-input .toTxt {
+  border-left: 1px solid grey;
+}
+.text-input .fromTxt{
+    width: 95%;
+}
+.controls, li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls{
+    padding: 15px 15px;
+    list-style: none;
+}
+.container span{
+    width: 50px;
+    color: gray;
+    cursor: pointer;
+    justify-content: center;
+}
+.wrapper select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.wrapper li #exchange{  color: gray;   width: 0;}
+.icons-to{    padding-left: 40px;}
+.container button{    width: 100%;    padding: 10px;    margin-top: 20px;    background-color: #5372F0;    border-radius: 7px;    -webkit-border-radius: 7px;    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: 1px #5372F0;
+    cursor: pointer;
+}
